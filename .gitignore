@@ -1,0 +1,68 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Kotlin
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.DS_Store
+
+# Android (archivos respaldados)
+build-android.gradle.kts.backup
+settings-android.gradle.kts.backup
+local.properties
+
+# Base de datos SQLite (desarrollo local)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Logs
+*.log
+logs/
+
+# Gradle Wrapper (mantener estos archivos)
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+# Archivos temporales
+*.tmp
+*.bak
+*.swp
+*~
+
+# Sistema Operativo
+Thumbs.db
+.DS_Store
+
+# Archivos de compilación
+*.class
+*.log
+*.ctxt
+.mtj.tmp/
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
